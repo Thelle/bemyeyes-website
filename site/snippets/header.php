@@ -62,6 +62,7 @@
 </head>
 <body class="body">
 	
+<<<<<<< HEAD
 <?php if(!empty($_GET['OkLSgV1Xo0']) AND $_GET['OkLSgV1Xo0'] == 'true') : ?>
 	<a id="signup-ribbon"  href="/sign-up?utm_source=signup&utm_medium=website&utm_campaign=ribbon_signup"><img src="<?php echo url('assets/images/signup2.png') ?>" alt="sign up for the private beta" /></a>
 <?php else : ?>
@@ -99,7 +100,13 @@
 		          	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="/assets/sign-up-form.html?utm_source=signup&utm_medium=website&utm_campaign=menu_signup" title="sign up for the private beta">Sign Up</a>
 		          </li>-->		      
 		          <li>
-		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;"  href="http://www.facebook.com/bemyeyes.org" target="_blank"><img src="<?php echo url('assets/images/facebook-logo.png') ?>" alt="facebook page" /></a>
+		          	<a id="signup-ribbon" class="fancybox fancybox.iframe" href="/assets/sign-up-form.html?utm_source=signup&utm_medium=website&utm_campaign=menu_signup" title="sign up for the private beta">Sign Up</a>
+		          </li>		      
+		          <li>
+		            <a id="fb" onClick="trackOutboundLink(this, 'Outbound Links', 'Facebook icon'); return false;"  href="http://www.facebook.com/bemyeyes.org" target="_blank"><img src="<?php echo url('assets/images/facebook.png') ?>" alt="facebook page" /></a>
+		          </li>
+		          <li>
+		            <a id="twitter" onClick="trackOutboundLink(this, 'Outbound Links', 'Twitter icon'); return false;" href="http://www.twitter.com/bemyeyes"><img src="<?php echo url('assets/images/twitter.png') ?>" alt="twitter page" /></a>		          	
 		          </li>
 		        </ul>
 		      </section>
